@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<Skin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <WindowSetting windowName="CalendarForm">
+    <Background>
+      <Bitmap>bg.PNG</Bitmap>
+      <Width>210</Width>
+      <TextMaxWidth>0</TextMaxWidth>
+      <Offset X="0" Y="10" />
+      <BottomPadding>-4</BottomPadding>
+      <Margin top="30" left="5" right="10" bottom="5" />
+    </Background>
+    <Header>
+      <Align>0</Align>
+      <Font size="0" style="0" shadow="false" />
+      <Offset X="0" Y="0" />
+    </Header>
+    <EventList>
+      <Font size="0" style="0" shadow="false" />
+    </EventList>
+    <EventDay>
+      <Font size="0" style="0" shadow="false" />
+    </EventDay>
+    <MenuButton>
+      <Offset X="55" Y="13" />
+      <Img>menu.png</Img>
+    </MenuButton>
+    <CloseButton>
+      <Offset X="195" Y="11" />
+      <Img>close.png</Img>
+    </CloseButton>
+    <Year>
+      <Font size="10" color="$FFFFFFFF" fontName="Muli" style="1" shadow="false" />
+      <Offset X="130" Y="8" />
+    </Year>
+    <Month>
+      <Font size="10" color="$FFFFFFFF" fontName="Muli" style="1" shadow="false" />
+      <Offset X="20" Y="8" />
+    </Month>
+    <WeekNumber>
+      <Font size="9" color="$FFBDB76B" fontName="Muli" style="1" shadow="false" />
+      <Visible>false</Visible>
+      <Offset X="10" Y="60" />
+    </WeekNumber>
+    <WeekDay>
+      <Font size="12" color="$FFFFFFFF" fontName="Muli" style="1" shadow="false" />
+      <UseShort>true</UseShort>
+    </WeekDay>
+    <Day>
+      <Font size="12" color="$FFFFFFFF" fontName="Muli" style="1" shadow="true" />
+      <Dayspace>28</Dayspace>
+      <VerticalSpace>20</VerticalSpace>
+      <EventColor>$FFF0C402</EventColor>
+      <WeekendColor>$FF8080FF</WeekendColor>
+      <Offset X="9" Y="50" />
+    </Day>
+    <PreButton>
+      <Offset X="6" Y="10" />
+      <Img>button-left.png</Img>
+    </PreButton>
+    <NextButton>
+      <Offset X="180" Y="10" />
+      <Img>button-right.png</Img>
+    </NextButton>
+    <TodayImg>today.png</TodayImg>
+  </WindowSetting>
+  <WindowSetting windowName="EventForm">
+    <Background>
+      <Bitmap>bg.png</Bitmap>
+      <Width>210</Width>
+      <TextMaxWidth>200</TextMaxWidth>
+      <Offset X="10" Y="40" />
+      <BottomPadding>1</BottomPadding>
+      <Margin top="39" left="10" right="15" bottom="20" />
+    </Background>
+    <Header>
+      <Align>0</Align>
+      <Bitmap />
+      <Font size="12" color="$FFFFFFFF" fontName="Muli" style="1" shadow="false" />
+      <Offset X="11" Y="8" />
+      <Text>Events</Text>
+    </Header>
+    <EventList>
+      <Font size="10" color="$FFFFFFFF" fontName="Muli" style="1" shadow="false" />
+    </EventList>
+    <EventDay>
+      <Font size="10" color="$FFF0C402" fontName="Muli" style="1" shadow="false" />
+    </EventDay>
+    <MenuButton>
+      <Offset X="60" Y="15" />
+      <Img>menu.png</Img>
+    </MenuButton>
+    <CloseButton>
+      <Offset X="195" Y="13" />
+      <Img>close.png</Img>
+    </CloseButton>
+    <AddButton>
+      <Offset X="170" Y="10" />
+      <Img>add.png</Img>
+    </AddButton>
+  </WindowSetting>
+  <WindowSetting windowName="TaskForm">
+    <Background>
+      <Bitmap>bg.png</Bitmap>
+      <Width>210</Width>
+      <TextMaxWidth>200</TextMaxWidth>
+      <Offset X="10" Y="30" />
+      <BottomPadding>10</BottomPadding>
+      <Margin top="30" left="10" right="15" bottom="15" />
+    </Background>
+    <Header>
+      <Align>0</Align>
+      <Bitmap />
+      <Font size="12" color="$FFFFFFFF" fontName="Muli" style="1" shadow="false" />
+      <Offset X="13" Y="10" />
+      <Text>Todos</Text>
+    </Header>
+    <EventList>
+      <Font size="10" color="$FFFFFFFF" fontName="Muli" style="1" shadow="false" />
+    </EventList>
+    <EventDay>
+      <Font size="10" color="$FFBDB76B" fontName="Muli" style="1" shadow="false" />
+    </EventDay>
+    <MenuButton>
+      <Offset X="60" Y="15" />
+      <Img>menu.png</Img>
+    </MenuButton>
+    <CloseButton>
+      <Offset X="195" Y="13" />
+      <Img>close.png</Img>
+    </CloseButton>
+    <AddButton>
+      <Offset X="175" Y="10" />
+      <Img>add.png</Img>
+    </AddButton>
+    <PreButton>
+      <Offset X="11" Y="15" />
+      <Img>button-left.png</Img>
+      <ImgD>darkbutton-left.png</ImgD>
+    </PreButton>
+    <NextButton>
+      <Offset X="260" Y="15" />
+      <Img>button-right.png</Img>
+      <ImgD>darkbutton-right.png</ImgD>
+    </NextButton>
+  </WindowSetting>
+  <WindowSetting windowName="WeatherForm">
+    <Background>
+      <Bitmap>WeatherBg.png</Bitmap>
+      <Width>218</Width>
+      <TextMaxWidth>190</TextMaxWidth>
+      <Offset X="20" Y="40" />
+      <BottomPadding>-10</BottomPadding>
+      <Margin top="60" left="15" right="16" bottom="21" />
+    </Background>
+    <Header>
+      <Align>0</Align>
+      <Font size="0" style="0" shadow="false" />
+      <Offset X="0" Y="0" />
+    </Header>
+    <EventList>
+      <Font size="0" style="0" shadow="false" />
+    </EventList>
+    <EventDay>
+      <Font size="0" style="0" shadow="false" />
+    </EventDay>
+    <MenuButton>
+      <Offset X="65" Y="45" />
+      <Img>menu.png</Img>
+    </MenuButton>
+    <CloseButton>
+      <Offset X="195" Y="40" />
+      <Img>close.png</Img>
+    </CloseButton>
+    <TodayTemperature size="10" color="$FFFFFFFF" fontName="Muli" style="1" shadow="false" />
+    <Today size="7" color="$ffffffff" fontName="Tahoma" style="0" shadow="false" />
+    <WeekdayName size="8" color="$FFFFFFFF" fontName="Muli" style="1" shadow="false" />
+    <CityName size="6" color="$FFFFFFFF" fontName="Muli" style="1" shadow="false" />
+    <Temperature size="9" color="$FFFFFFFF" fontName="Muli" style="1" shadow="false" />
+    <VerticalSpace>6</VerticalSpace>
+    <TodayWeatherSize>
+      <Width>70</Width>
+      <Height>70</Height>
+    </TodayWeatherSize>
+  </WindowSetting>
+</Skin>
